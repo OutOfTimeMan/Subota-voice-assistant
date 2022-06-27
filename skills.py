@@ -1,6 +1,7 @@
 import os, webbrowser, sys, requests, subprocess, pyttsx3
 
 engine = pyttsx3.init()
+
 # Скорость речи
 engine.setProperty('rate', 180)
 

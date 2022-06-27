@@ -17,6 +17,7 @@ device = sd.default.device
 #Получение частоты микрофона
 samplerate = int(sd.query_devices(device[0], 'input')['default_samplerate'])
 
+
 def recognize(data, vectorizer, clf):
     '''Анализ распознаной речи'''
 
