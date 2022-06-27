@@ -37,6 +37,7 @@ def recognize(data, vectorizer, clf):
     speaker(answer.replace(func_name, ''))
     exec(func_name + '()')
 
+
 def callback(indata):
     '''Добавляет в очередь семплы из потока.
     вызывается каждый раз при наполнении blocksize
