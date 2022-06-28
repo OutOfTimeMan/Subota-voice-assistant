@@ -39,7 +39,7 @@ def recognize(data, vectorizer, clf):
     exec(func_name + '()')
 
 
-def callback(indata):
+def callback(indata, frames, time, status):
     '''Добавляет в очередь семплы из потока.
     вызывается каждый раз при наполнении blocksize
     в sd.RawInputStream'''
